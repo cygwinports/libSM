@@ -1,0 +1,4 @@
+category: X11
+requires: cygwin libICE xproto
+sdesc: "Xorg Session Management Library (development)"
+ldesc: "Xorg Session Management Library"
