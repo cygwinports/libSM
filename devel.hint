@@ -1,5 +1,5 @@
 category: X11
-requires: cygwin libICE-devel xproto
+requires: cygwin libSM6 libICE-devel xproto
 external-source: libSM
 sdesc: "Xorg Session Management Library (development)"
 ldesc: "Xorg Session Management Library"
