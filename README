@@ -3,24 +3,25 @@ libSM
 X.Org Session Management library
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libICE6-1.0.4-1
+  cygwin-1.7.0-43
+  libgcc1-4.3.2-2
+  libICE6-1.0.4-10
 
 Build requirements:
 (besides corresponding devel packages)
-  autoconf2.5-2.63-1
-  automake1.10-1.10.1-1
+  autoconf2.5-2.63-10
+  automake1.10-1.10.1-10
   binutils-20080624-2
-  cygport-0.4.2-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  libtool-2.2.6a-1
-  make-3.81-1
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  libtool-2.2.7a-1
+  make-3.81-2
   pkg-config-0.23a-2
   sed-4.1.5-2
-  xorg-util-macros-1.1.6-1
-  xproto-7.0.14-1
-  xtrans-1.2.2-1
+  xorg-util-macros-1.2.1-1
+  xproto-7.0.15-1
+  xtrans-1.2.3-1
 
 Canonical website:
   http://xorg.freedesktop.org/
@@ -49,10 +50,9 @@ Files included in the binary packages:
 
 (libSM6)
   /usr/bin/cygSM-6.dll
-  /usr/share/doc/libSM-1.1.0/AUTHORS
-  /usr/share/doc/libSM-1.1.0/COPYING
-  /usr/share/doc/libSM-1.1.0/ChangeLog
-  /usr/share/doc/libSM-1.1.0/INSTALL
+  /usr/share/doc/libSM/AUTHORS
+  /usr/share/doc/libSM/COPYING
+  /usr/share/doc/libSM/ChangeLog
 
 (libSM-devel)
   /usr/include/X11/SM/SM.h
@@ -67,20 +67,8 @@ Files included in the binary packages:
 
 Port Notes:
 
------ version 1.1.0-1 -----
-X11R7.4 version bump.
-
------ version 1.0.3-1 -----
-X11R7.3 version bump.
-
------ version 1.0.2-1 -----
-X11R7.2 version bump.
-
------ version 1.0.1-1 -----
-X11R7.1 version bump.
-
------ version 1.0.0-1 -----
-Initial Cygwin release of modular X11R7.0.
+----- version 1.1.0-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
