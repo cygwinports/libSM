@@ -1,5 +1,5 @@
 category: X11
-requires: cygwin libgcc1 libICE6
+requires: libgcc1 libICE6
 external-source: libSM
 sdesc: "X.Org Session Management Library (runtime)"
 ldesc: "X.Org Session Management Library"
