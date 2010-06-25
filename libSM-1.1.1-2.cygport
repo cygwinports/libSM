@@ -4,6 +4,3 @@ PKG_NAMES="${PN} ${PN}6 ${PN}-devel"
 PKG_HINTS="setup runtime devel"
 libSM6_CONTENTS="usr/bin/cygSM-6.dll usr/share/doc/"
 libSM_devel_CONTENTS='usr/include/ usr/lib/'
-
-# FIXME: remove once e2fsprogs w/ shared libs is in the distro
-CYGCONF_ARGS="--without-libuuid"
