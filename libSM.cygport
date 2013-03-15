@@ -1,6 +1,12 @@
 inherit xorg
 
+NAME="libSM"
+VERSION=1.2.1
+RELEASE=1
+CATEGORY="X11"
+SUMMARY="X.Org Session Management Library"
+DESCRIPTION="X.Org Session Management Library"
+
 PKG_NAMES="${PN}6 ${PN}-devel"
-PKG_HINTS="runtime devel"
 libSM6_CONTENTS="usr/bin/cygSM-6.dll usr/share/doc/"
 libSM_devel_CONTENTS='usr/include/ usr/lib/'

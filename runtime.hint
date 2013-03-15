@@ -1,5 +1,0 @@
-category: X11
-requires: libICE6 libuuid1
-external-source: libSM
-sdesc: "X.Org Session Management Library (runtime)"
-ldesc: "X.Org Session Management Library"
