@@ -1,9 +1,9 @@
 inherit xorg
 
 NAME="libSM"
-VERSION=1.2.1
+VERSION=1.2.2
 RELEASE=1
-CATEGORY="X11"
+CATEGORY="Libs"
 SUMMARY="X.Org Session Management Library"
 DESCRIPTION="X.Org Session Management Library"
 
